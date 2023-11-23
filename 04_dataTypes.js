@@ -6,10 +6,10 @@
 // in primative data type there are total 7 type( NN BB SS U)
 // 1. null
 // 2. number
-// 3. string
-// 4. symbole
-// 5. boolean
-// 6. BigInt
+// 3. BigInt
+// 4. Boolean
+// 5. String
+// 6. Symbol
 // 7.undefine
 
 let a =null
@@ -32,4 +32,5 @@ const user = {
     mail_id :'rahul22@gmail.com'
 }
 console.log(user)
-console.log(typeof(user.user_id))
+console.log("TYPE OF const user is:",typeof(user.user_id))
+console.log(Object.keys(user))
