@@ -13,14 +13,18 @@ console.log("increement of ++a is:", ++a)
 let c=12
 // c=43
 console.log("assingment op equal to '=':", c=22)
-console.log("assingment op += :", c +=5)        // initially c=22 and after += 5 now c is 22+5=27
-console.log("assingment op -=:", c -=10)        // initially c=27 and after -= 10 now c is 27-10=17
-console.log("assingment op *=:", c *=2)        // initially c=27 and after *= 2 now c is 17*2=34
+console.log("assingment op c+=5 :", c +=5)        // initially c=22 and after += 5 now c is 22+5=27
+console.log("assingment op c-=10:", c -=10)        // initially c=27 and after -= 10 now c is 27-10=17
+console.log("assingment op c*=:2", c *=2)        // initially c=27 and after *= 2 now c is 17*2=34
 
 // Comparison operator: =, ==, !=, ===, !==
 let com1 =6
 let com2 =7
 let com3 ="6"
+
+console.log("comp1 is:",com1," and type of comp1 is",typeof(com1))
+console.log("comp2 is:",com2," and type of comp2 is",typeof(com2))
+console.log("comp3 is:",com3," and type of comp3 is",typeof(com3))
 
 console.log("comparison of  com1===com2 is:", com1===com2)
 console.log("comparison of  com1===com3 is:", com1===com3)      // === compaired varibale based on its type i.e string , number etc
