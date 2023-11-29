@@ -13,3 +13,13 @@ function avg(a,b,c,d){
 }
 arr=[25,68,95,85]
 console.log(avg(25,95,85,45))
+
+function crate_arr(a,b,c,d,e){
+    return arr=[a,b,c,d,e];
+}
+let a=33
+let b=23
+let c=53
+let d=64
+let e=98
+console.log("new arr is", crate_arr(a,b,c,d,e))
